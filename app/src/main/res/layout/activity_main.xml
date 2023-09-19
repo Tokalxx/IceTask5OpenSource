@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Edit text to enter name -->
+    <EditText
+        android:id="@+id/enterDiary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Diary"
+        android:textSize="22sp"
+        android:layout_margin="20sp"/>
+
+
+
+    <!-- Button to add Name -->
+    <Button
+        android:id="@+id/addDiary"
+        android:layout_width="150sp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:text="Add Diary"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"/>
+
+    <!-- Button to print Name -->
+    <Button
+        android:id="@+id/printDiary"
+        android:layout_width="150sp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:text="Print Diary"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <!-- Text view to get all ages -->
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/Dairy"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:text="Dairy\n\n"
+            android:textSize="22sp"
+            android:padding="10sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
